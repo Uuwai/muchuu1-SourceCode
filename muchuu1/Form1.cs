@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -104,6 +104,7 @@ namespace muchuu1
             this.Cursor = CursorList()[random.Next(CursorList().Length)];
             this.RightToLeft = (RightToLeft)random.Next(0,2);
             this.FormBorderStyle = (FormBorderStyle)random.Next(1,7);
+            this.Location = new Point(random.Next(Screen.PrimaryScreen.Bounds.Width)/2, random.Next(Screen.PrimaryScreen.Bounds.Height)/2);
             this.Size = new Size(random.Next(Screen.PrimaryScreen.Bounds.Width), random.Next(Screen.PrimaryScreen.Bounds.Height));
             try
             {
