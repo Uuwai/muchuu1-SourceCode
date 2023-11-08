@@ -1,3 +1,4 @@
 # muchuu1-SourceCode
-Weird Generator
+Weird Generator Source code
 
+Not Updated
